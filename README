@@ -1,0 +1,12 @@
+First Commit:
+
+- Boiler plate functionality for my first Node website.
+(Help from "The Node Beginner Book" - Manuel Kiessling)
+
+- Includes
+	- Main page
+	- Server
+	- Router
+	- Request Handler
+	
+- Handles main (start) page/ and empty pages (also go to start)
