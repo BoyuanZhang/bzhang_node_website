@@ -8,5 +8,6 @@ First Commit:
 	- Server
 	- Router
 	- Request Handler
+	- Ghost blog, page
 	
 - Handles main (start) page/ and empty pages (also go to start)
