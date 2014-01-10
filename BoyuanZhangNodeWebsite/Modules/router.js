@@ -1,8 +1,15 @@
+var pathURL = require("path");
+
 function route( path, handle, response ) {
 	console.log( 'About to route request for ' + path );
 	
+	//If extension name is a css file or a js file, then the requestHandler will load it in
+	if( pathURL.extname( path) == ".css" || pathURL.extname( path) == ".js")
+	{
+		handle[pathURL.extname(path)]( response, path);
+	}
 	//Does the handle exist to the specified path?
-	if( typeof handle[path] === "function" ) {
+	else if( typeof handle[path] === "function" ) {
 		//Exists call the proper handler
 		handle[path]( response);
 	}
