@@ -1,5 +1,6 @@
-var http = require('http');
-var url = require('url');
+var http = require('http'),
+	url = require('url'),
+	fs = require('fs');
 
 function start( router, handler ) 
 {
