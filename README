@@ -5,9 +5,13 @@ First Commit:
 
 - Includes
 	- Main page
+	- Client
 	- Server
 	- Router
 	- Request Handler
 	- Ghost blog, page
 	
 - Handles main (start) page/ and empty pages (also go to start)
+- Ghost blog module not included for privacy reasons
+
+- Personal website made for learning purposes with multiple Node apps
