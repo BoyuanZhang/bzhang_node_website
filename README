@@ -1,17 +1,17 @@
-First Commit:
+Live Version:
 
-- Boiler plate functionality for my first Node website.
-(Help from "The Node Beginner Book" - Manuel Kiessling)
+Website domain - http://boyuanzhang.com
+
+Website uses Nginx proxying requests to Node back-end. Running on a Linux server hosted
+by DigitalOcean.
 
 - Includes
-	- Main page
 	- Client
 	- Server
 	- Router
 	- Request Handler
-	- Ghost blog, page
+	- Ghost blog
 	
-- Handles main (start) page/ and empty pages (also go to start)
 - Ghost blog module not included for privacy reasons
 
-- Personal website made for learning purposes with multiple Node apps
+- Personal website made for learning purposes with multiple Node apps, and web servers
