@@ -14,7 +14,7 @@ function start( router, handler )
 		router( path, handler, response );
 	});
 	
-	server.listen('1337');
+	server.listen(3000, '127.0.0.1');
 	console.log( 'Server has started.');
 };
 

@@ -8,10 +8,11 @@ handler["/"] = requestHandler.home;
 handler["/home"] = requestHandler.home;
 handler["/resume"] = requestHandler.resume;
 handler["/blog"] = requestHandler.blog;
-handler["/projects"] = requestHandler.projects;
-handler["/contact"] = requestHandler.contact;
 
 //For loading css / js files
 handler[".css"] = requestHandler.loadCSS;
+//Loading in image files
+handler[".jpg"] = requestHandler.loadImg;
+handler[".png"] = requestHandler.loadImg;
 
 server.start(router.route, handler);

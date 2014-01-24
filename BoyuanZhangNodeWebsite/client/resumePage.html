@@ -1,24 +1,119 @@
 <html>
 	<head>
-		<link href = "./css/bootstrap.css" rel = "stylesheet">
+		<link href = "./css/theme.css" rel = "stylesheet">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
 	</head>
-	
 	<body>
-	
-		<div class="navbar">
-		  <div class="navbar-inner">
-			<div class="container">
-			  <a class="brand" href = "http://localhost:1337/home">Boyuan Zhang</a>
-				<ul class="nav">
-				  <li><a href="http://localhost:1337/home">Home</a></li>
-				  <li class="active"><a href = "#">Resume</a></li>
-				  <li><a href = "http://localhost:1337/blog">Blog</a></li>
-				  <li><a href = "http://localhost:1337/projects">Projects</a></li>
-				  <li><a href = "http://localhost:1337/contact">Contact</a></li>
+		<div id = "navbar"> 
+			<div id = "navbar-wrapper"> 
+				<ul>
+				  <li><a href = "http://localhost:3000">Home</a></li>
+				  <li><a href = "#">Resume</a></li>
+				  <li><a href = "http://localhost:3000/blog">Blog</a></li>
+				  <li><a href = "https://github.com/BoyuanZhang">GitHub</a></li>				  
 				</ul>
 			</div>
-		  </div>
 		</div>
 		
+		<div id = "header">
+			<h2> Boyuan Zhang </h2>
+			<div id = "subheader" >
+				boyuan.y.zhang@gmail.com 
+				<a style = "text-decoration:none; border-bottom:1px dashed #999; display:inline" href = "https://github.com/BoyuanZhang">github.com/BoyuanZhang</a>
+			</div>
+		</div>
+		<div id = "sectionheader">
+			 <h3> Profile </h3> 
+		</div>
+		<div id = "section">
+			<p style = "text-indent: 50px">
+				I am an avid programmer and problem solver. I love designing and building software piece by piece, and watching the system grow and operate as the pieces come together. 
+				I spent a year after graduation developing and maintaining an insurance back office system, working on client, server, and database infrastructures. I enjoy tinkering with
+				various technologies, and often work on multiple side-projects to deepen my understanding of different software fields. In the end I am a generalist who still has a lot to
+				learn. In my spare time I enjoy putting my latest projects up on GitHub or blogging.
+			</p>
+		</div>
+			
+		<div id = "sectionheader">
+			<h3>Professional Experience</h3>
+		</div>
+		<div id = "section">
+			<b>* Mutual Concept Computer Group - Software Developer (May 2012 - August 2013)</b>
+			<ul>
+			<li>Designed and implemented new data retrieval model on server using the JPA Criteria API, allowing for type-safe, cleaner, and more organized construction of dynamic database queries.</li>
+			<li>Worked in conjunction with development and business team to develop and implement visualization of geo-coded location data using Google Maps API.</li>
+			<li>Contributed to the design, and implementation of several unit tests to increase overall system code coverage. </li>
+			<li>Responsible for resolving bugs (old and new) in code-base.</li>
+			<b style = "line-height:30px"> Tool and Technologies: Java, JBoss, Hibernate, Web Services, Wicket, Powerbuilder, Oracle, SQL, SVN, Jira </b>
+			</ul>
+		</div>
+		<div id = "sectionheader">
+			<h3>Projects</h3>
+		</div>
+		<div id = "section" >
+			<b>*2D Tile Engine / Editor (2014) - 
+			<a style = "text-decoration:none; color:#4C2982; border-bottom:1px dashed #999; display:inline" href = "https://github.com/BoyuanZhang/monogame_tile_solution"> GitHub link</a>
+			</b>
+			<ul>
+				<li> Developed a 2D Tile Engine module for the development of 2D tile-based games. </li>
+				<li> Developed a Tile editor UI to create tile-based map files for games running on the Tile Engine. </li>
+				<b style = "line-height:30px"> Tool and Technologies: C#, WinForms, MonoGame, OpenTK </b>
+			</ul>
+			
+			<b>*Network Packet Sniffer (2014) - 
+			<a style = "text-decoration:none; color:#4C2982; border-bottom:1px dashed #999; display:inline" href = "https://github.com/BoyuanZhang/pcktsnfr"> GitHub link</a>
+			</b>
+			<ul>
+				<li> Created a packet sniffer for analyzing traffic on network adapter devices.</li>
+				<li> Features include filtering, monitoring, and interpreting TCP/UDP packets.</li>
+				<b style = "line-height:30px"> Tool and Technologies: C++, WinPcap, TCP/IP </b>
+			</ul>
+			
+			<b>*2D Space Shooter (2014) - 
+			<a style = "text-decoration:none; color:#4C2982; border-bottom:1px dashed #999; display:inline" href = "https://github.com/BoyuanZhang/monogame_space"> GitHub link</a>
+			</b>
+			<ul>
+				<li> 2D Shooter incoporating partition trees for graphical/collision optimization, and enemy AI. Game demos in GitHub link. </li>
+				<b style = "line-height:30px"> Tool and Technologies: C#, MonoGame </b>
+			</ul>
+			
+			<b>*BoyuanZhang.com (2014)
+			<a style = "text-decoration:none; color:#4C2982; border-bottom:1px dashed #999; display:inline" href = "https://github.com/BoyuanZhang/bzhang_node_website"> GitHub link</a>
+			</b>
+			<ul>
+				<li> Personal website, and blog, running on Node.js with Nginx serving proxy requests from the front end. </li>
+				<b style = "line-height:30px"> Tool and Technologies: JavaScript, Node.js, HTML, CSS, Nginx </b>
+			</ul>
+			
+			<b>*Personal Planner (2013) </b>
+			<ul>
+				<li>Designed and implemented a dynamic planner system (using Client-Server-Data infrastructure) to help organize and manage user schedule and goals.</li>
+				<li>Program highlights include; cache system for lazy loaded data to reduce hits on database, Neural Networks to recognize patterns in user habits.</li>
+				<b style = "line-height:30px">Tool and Technologies: C#,.NET Framework(WPF), SQLite</b>
+			</ul>
+		</div>
+		
+		<div id = "sectionheader">
+			<h3>Technical Skills</h3>
+		</div>
+		<div id = "section" >
+			<b>Proficient Languages:</b> <span style ="padding-left:7rem">C++, C#, Java, JavaScript </span> <br>
+			<b>Familiar Languages:</b> <span style ="padding-left:7rem"> C, PHP, Assembler(masm32 set) </span><br>
+			<b>Frameworks/Platforms/Servers:</b> <span style ="padding-left:50px"> Android SDK, Node.js, Nginx, Jboss </span><br>
+			<b>Relational Databases:</b> <span style ="padding-left:7rem">Oracle, SQLite</span><br>
+			<b>Development Tools:</b> <span style ="padding-left:7rem"> Visual Studio, Eclipse, SVN, Git, Jira</span><br>
+			<b>Operating Systems:</b> <span style ="padding-left:7rem"> Windows(XP,  Vista,  7), Linux(Ubuntu)</span><br>
+		</div>
+		<div id = "sectionheader">
+			<h3>Education</h3>
+		</div>
+		<div id = "section" >
+			<b>*The University of Western Ontario, London Ontario</b>
+			<ul>
+				<li>B.S, Software Engineering (2008 - 2012)</li>
+			</ul>
+		</div>
+		
+		<br><br><br><br><br>
 	</body>
 </html>

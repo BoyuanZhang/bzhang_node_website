@@ -3,8 +3,9 @@ var pathURL = require("path");
 function route( path, handle, response ) {
 	console.log( 'About to route request for ' + path );
 	
-	//If extension name is a css file or a js file, then the requestHandler will load it in
-	if( pathURL.extname( path) == ".css" || pathURL.extname( path) == ".js")
+	//check if extension name is a script or image
+	if( pathURL.extname( path) == ".css" || pathURL.extname( path) == ".js" ||
+		pathURL.extname(path) == ".jpg" || pathURL.extname(path) == ".png")
 	{
 		handle[pathURL.extname(path)]( response, path);
 	}
